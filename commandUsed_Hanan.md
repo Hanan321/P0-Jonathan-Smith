@@ -24,6 +24,7 @@ $ git checkout -b HananBranch
 $ git commit HananBranch
 
 $ git push -u origin HananBranch
+
 remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.
 remote: Please see https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/ for more information.
 fatal: unable to access 'https://github.com/Hanan321/P0-Jonathan-Smith/': The requested URL returned error: 403
@@ -43,12 +44,17 @@ $ git commit -m 'commiting hello file by Hanan'
 $ git push
 
 $ git status
+
 On branch HananBranch
 Your branch is up to date with 'origin/HananBranch'.
 
 nothing to commit, working tree clean
 
+ git add commandUsed_Hanan.md
+ 
+ git commit -m 'changes by Hanan'
 
+$ git push
 
 
 
